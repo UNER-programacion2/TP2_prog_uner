@@ -1,4 +1,4 @@
-# TP2 Prgramacion II - Uner
+# TP2 Programacion II - Uner
 
 __Integrantes__ 
 
