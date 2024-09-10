@@ -2,8 +2,6 @@
 
 __Integrantes__ 
 
-INTEGRANTES:
-
 * Avalos Victoria Inés 
 * Bertorello Santiago Nicolas 
 * Cardozo Estrella
