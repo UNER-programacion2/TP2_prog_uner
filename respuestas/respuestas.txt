@@ -1,0 +1,12 @@
+4. Respuestas sobre los identificadores mozo1 y mozo2
+
+i. ¿Los identificadores mozo1 y mozo2 hacen referencia al mismo objeto?
+No, aunque ambos tienen el mismo nombre ("Alfredo"), son instancias diferentes de la clase Mozo, por lo tanto, no son el mismo objeto en memoria.
+Esto lo verificamos con "print(mozo1 is mozo2)"
+
+ii. ¿Son objetos equivalentes?
+Si, son dos objetos equivalentes ya que tienen el mismo estado interno ('Alfredo'), esto lo verificamos implementando el método __eq__, y despues haciendo la comparación con "print(mozo1 == mozo2)" para asegurarnos su equivalencia.
+
+iii. ¿Los objetos ligados a mozo1 y mozo2 comparten la misma posición de memoria?
+No, cada instancia de una clase tiene su propia ubicación en la memoria, incluso si los atributos tienen los mismos valores.
+Cada vez que creas un objeto con Mozo(), Python asigna un espacio único en memoria para ese objeto. Esto se corrobora con la función integrada id() para verificar la posición en memoria.
